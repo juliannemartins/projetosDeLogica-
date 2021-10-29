@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>")
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha
+	}
+
+	var chegaramNoBrasil = 1500
+	var mediaIdadeParaFilhos = 28
+
+	mostra("<h1>Desde 1500 até o ano atual, quantas gerações se passaram?</h1>")
+
+	mostra("Até hoje se passaram " + Math.round(chegaramNoBrasil/mediaIdadeParaFilhos) + " gerações.")
+</script>
